@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hello Everyone <3 - Lytwest. </title>
+    <meta name="theme-color" content="#111827">
+    <meta property="og:site_name" content="Lytwest - This World's Yours">
+    <link rel='icon' type='image/png'
+        href='https://cdn.discordapp.com/attachments/864201025047887932/953085545729380392/Baslksz-1.png'>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v6.0.0-beta3/css/all.css"
+        ntegrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer">
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+    <link href="https://www.unpkg.com/atomic-css@1.0.0/dist/atomic.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/tippy.js@6/animations/scale.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <link rel='stylesheet' href="/assets/css/style.css">
+    <link rel="manifest" href="manifest.json">
+</head>
+
+<body class="animate__animated animate__fadeIn js">
+
+    <div class="animate__animated animate__flash" id="spotifyListening">
+    </div>
+    <div class="navbar padding mt-3">
+        <a href="/" class="navbar-brand navbar-brand-text hover:opacity-80"><b>W</b>ST</a>
+        <div class="navbar-nav">
+        </div>
+        <div class="navbar-nav ms-auto">
+            <div id="buttons">
+                <button id="switch-mode-btn" class="navbar-btns switch-mode-btn transition-shadow hover:shadow-md mr-1">
+                    <i class='fa-solid fa-sun-bright'></i>
+                </button>
+                <button id="about-panel-btn"
+                    class="navbar-btns about-panel-btn transition-shadow hover:shadow-md">
+                    <i class="fa-regular fa-user"></i>
+                </button>
+            </div>
+        </div>
+    </div>
+ <div class="head padding section">
+        <div class="head-status" id="headStatus">
+        </div>
+        <div class="head-status" id="headStatus2">
+        </div>
+        <div class="head-status" id="headStatus3">
+        </div>
+        <p id="day-message" class="head-name">
+            Hi, I’m Lytwest.
+        </p>
+         <p class="head-description text-black">
+            I'm currently working as a full-stack developer at <a href="https://top.gg/bot/834768434574786561/invite" target="_blank"
+                class="head-description-btn decoration_yh">Poliéncé</a> and <a href="https://github.com/Lytwest/atascript" target="_blank"
+                class="head-description-btn decoration_yh">AtaScript</a> in Organization of <a
+                href="https://discord.gg/U6TsF5rzwv" target="_blank" class="head-description-btn decoration_yh">AnkhaNetwork™</a>. I am a 16-year-old developer who is interested in design, has small-scale projects, and deals with software, albeit small.
+        </p>
+        <p class="mt-2 animate__animated animate__flash"><span id="statusContent"><span
+                    class="w-3 h-3 bg-gray-500 rounded-full inline-flex ml-1 mr-2"></span>Loading</span></p>
+        <p class="mt-2 animate__animated animate__flash"><span id="cat"><i
+                    class="fa-regular fa-spinner-third animate-spin text-gray-500 inline-flex ml-1 mr-2"></i>Loading</span>
+        </p>
+        <p class="mt-2 animate__animated animate__flash"><span id="weather"><i
+                    class="fa-regular fa-spinner-third animate-spin text-gray-500 inline-flex ml-1 mr-2"></i>Loading</span>
+        </p>
+    </div>
+
+   <div class="projects padding section">
+        <p class="projects-title">Working On</p>
+        <a href="https://top.gg/bot/834768434574786561/invite" target="_blank">
+            <div class="project mt-2 p-3 rounded-lg">
+                <div class="project-left">
+                    <div class="project-title text-black">
+                        Poliéncé
+                    </div>
+                    <div class="project-sdescription text-gray-600 mt-1">
+                        Founder - Developer <span class="ml-1 mr-1">•</span> 2021 - Now
+                    </div>
+                    <div class="project-description text-gray-600 mt-1">
+                        Giveaway Bot Project Working on Discord Platform.
+                    </div>
+                </div>
+                <div class="project-right">
+                    <img draggable="false" class="project-right-img" width="50"
+                        src="https://cdn.discordapp.com/attachments/864201025047887932/995637656765616159/pl.png" alt="Poliéncé">
+                </div>
+            </div>
+        <a href="https://instagram.com/vryseresmi" target="_blank">
+            <div class="project mt-2 p-3 rounded-lg">
+                <div class="project-left">
+                    <div class="project-title text-black">
+                        Vryse Media
+                    </div>
+                    <div class="project-sdescription text-gray-600 mt-1">
+                        Founder - Designer <span class="ml-1 mr-1">•</span> 2022 - Now
+                    </div>
+                    <div class="project-description text-gray-600 mt-1">
+                        Social Media Account Covering Turkish Economy and Sports News.
+                    </div>
+                </div>
+                <div class="project-right">
+                    <img draggable="false" style="opacity: 0.2" class="project-right-img" width="50"
+                        src="https://cdn.discordapp.com/attachments/864201025047887932/953076959619985478/Baslksz-2.png" alt="Orcsan">
+                </div>
+            </div>
+        </a>
+    </div>
+
+<div class="githubs padding section">
+        <p class="githubs-title">Pinned Repositories</p>
+        <p class="github-description">Projects I Created and Helped to Build Myself.</p>
+        <div class="github-card" data-repo="Lytwest/konuoneri"></div>
+        <div class="github-card" data-repo="Lytwest/polience-site"></div>
+        <dic class="github-card" data-repo="Lytwest/polience-privacy"></div>
+    </div>
+
+     <div class="contacts padding section">
+        <p class="contacts-title">Social</p>
+                <a href="https://github.com/Lytwest" target="_blank">
+            <div class="contact mt-2 p-3 rounded-lg">
+                <div class="contact-left">
+                    <div class="contact-title text-black">
+                        GitHub
+                    </div>
+                    <div class="contact-sdescription text-gray-600 mt-1">
+                        @lytwest <span class="ml-1 mr-1">•</span> Browse My Projects.
+                    </div>
+                </div>
+                <div class="contact-right">
+                    <img draggable="false" class="contact-right-img" width="50"
+                        src="https://i.ibb.co/DgdKgLZ/github.png" alt="GitHub">
+                </div>
+            </div>
+        </a>
+        <a href="https://discord.gg/TqRWBdpy6w" target="_blank">
+            <div class="contact mt-2 p-3 rounded-lg">
+                <div class="contact-left">
+                    <div class="contact-title text-black">
+                        Discord
+                    </div>
+                    <div class="contact-sdescription text-gray-600 mt-1">
+                        1150+ Members <span class="ml-1 mr-1">•</span> Official Discord Server of Poliéncé.
+                    </div>
+                </div>
+                <div class="contact-right">
+                    <img draggable="false" class="contact-right-img" width="50"
+                        src="https://i.ibb.co/YRYC0hN/discord.png" alt="Discord">
+                </div>
+            </div>
+        </a>
+        <a href="mailto:lytwest@ankhanetwork.com">
+            <div class="contact mt-2 p-3 rounded-lg">
+                <div class="contact-left">
+                    <div class="contact-title text-black">
+                        Mail
+                    </div>
+                    <div class="contact-sdescription text-gray-600 mt-1">
+                        For Collaboration & Help or Questions:
+                    </div>
+                </div>
+                <div class="contact-right">
+                    <img draggable="false" class="contact-right-img" width="50" src="https://i.ibb.co/ZBNn6xN/mail.png"
+                        alt="Mail">
+                </div>
+            </div>
+        </a>
+    </div>
+
+
+    <div class="footer">
+        <div class="footer-in padding">
+            <p class="footer-text"><a href="https://github.com/Lytwest/lytwest.github.io" target="_blank"
+                    class="decoration_yh">It is prepared with the contribution of Eleven, but the old version is available on Github.</a></p>
+        </div>
+    </div>
+
+    <button onclick="topFunction()" id="goTop" class="transition-shadow hover:shadow-md">
+        <i class="fa-regular fa-chevron-up"></i>
+    </button>
+
+    <div class="modal fade" id="aboutPanel" tabindex="-1" role="dialog">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+            <div class="modal-content rounded-lg">
+                <div class="modal-body">
+                    <p id="phone_modal_close_btn" class="decoration_yh" data-dismiss="modal">Close this modal</p>
+                    <div id="modal-body-in" class="modal-body-in p-3">
+                        <div class="modal-body-in-content mt-1">
+                            <div id="modal-content" class="">
+                                <p class="modal_title text-uppercase">SECRET - A little informative feature :></p>
+                                <p id="modal_description" class="mt-1">Actually, I didn't find much to write about, but if you found this place, what's great <3 I started my design business by making tiny things for me (I'm afraid of them if I see them now). During the pandemic, when everyone was at home, I started to see the design business as a hobby. I have participated in great projects and cooperation in the process up to 2022. I am designing for many companies or players. I also bought coding training outside of design. I started developing myself with open-source codes at first without lying, I learned by looking at the command and coding structures. Together with my friend, with whom I have been cooperating for a long time, we started a project called "Poliéncé". This project was a public bot located on the Discord platform. After that, we decided to update it as a pull bot with a survey that I gave and users also approved. It was an advantage for us to make the bot global, while the number of servers increased day by day, our bot was again approved by Discord. Currently, we are designing as a freelancer, but we are also making a minecraft server that we are targeting for a large audience, where there will be all kinds of game modes called AnkhaNetwork with an important friend, this is a masterpiece for us. There are also music videos on my YouTube channel for EDM&Fast in 2021. You can also check out some of my (medium) degree projects by browsing my Github page. Ha, I must not forget, if you want to talk via discord, I can help you, and it also applies to collaborations and projects.</p>
+                            </div>
+                            <div class="modal-container">
+                                <div id="modal-item" class="modal-item mt-3">
+                                    <p class="modal_title text-uppercase">Based in</p>
+                                    <p id="modal_description" class="mt-1">Giresun, Turkey</p>
+                                </div>
+                                <div id="modal-item" class="modal-item mt-3">
+                                    <p class="modal_title text-uppercase">Working on</p>
+                                    <p id="modal_description" class="mt-1"><a href="https://ankhanetwork.com"
+                                            target="_blank" class="decoration_yh">AnkhaNetwork™</a></p>
+                                </div>
+                                <div id="modal-item" class="modal-item mt-3">
+                                    <p class="modal_title text-uppercase">Poliéncé - A Giveaway Bot</p>
+                                    <p id="modal_description" class="mt-1"><a href="https://bit.ly/polienceinvite"
+                                            target="_blank" class="decoration_yh">Poliéncé Invite Link :></a></p>
+                                </div>
+                            </div>
+<div id="modal-content" class="mt-3">
+                                <p class="modal_title text-uppercase">Technologies</p>
+                                <p id="modal_description" class="mt-1">
+                                <div class="grid grid-cols-2 gap-3 sm:gird-cols-3 md:grid-cols-5">
+                                    <div class="h-full">
+                                        <div class="flex space-x-2 items-center overflow-hidden">
+                                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" fill="#EFD81D"
+                                                class="flex-shrink-0 h-6 w-6 rounded-lg">
+                                                <path
+                                                    d="M0 0v512h512V0H0zm274.286 397.714c0 49.84-29.44 74.137-72.057 74.137-38.492 0-60.835-19.931-72.172-43.988l39.177-23.714c7.555 13.405 13.292 24.742 29.783 24.742 13.714 0 24.983-6.182 24.983-30.24V237.714h50.286v160zm113.543 72.995c-44.675 0-73.543-20.16-87.635-48L339.429 400c10.285 16.846 23.714 28.069 47.428 28.069 19.932 0 31.509-8.823 31.509-22.572 0-16.491-11.92-22.331-33.92-32l-12.023-5.166c-34.72-14.765-57.737-33.325-57.737-72.514 0-36.08 27.485-62.434 70.445-62.434 30.595 0 52.572 9.508 68.4 37.348L416 294.857c-8.251-14.777-17.143-20.571-30.926-20.571-14.091 0-23.028 8.937-23.028 20.571 0 14.434 8.937 20.274 29.554 29.212l12.023 5.154c40.903 17.531 63.931 35.428 63.931 75.611.012 43.315-34.011 65.875-79.725 65.875z" />
+                                            </svg>
+                                            <p class="modal_tech_names">JavaScript</p>
+                                        </div>
+                                    </div>
+                                    <div class="h-full">
+                                        <div class="flex space-x-2 items-center overflow-hidden">
+                                            <svg class="w-6 h-6" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+     viewBox="0 0 254.5 225" style="enable-background:new 0 0 254.5 225;" xml:space="preserve">
+<style type="text/css">
+    .st0{fill:#2DBCAF;}
+    .st1{fill:#5DC9E1;}
+    .st2{fill:#FDDD00;}
+    .st3{fill:#CE3262;}
+    .st4{fill:#00ACD7;}
+    .st5{fill:#FFFFFF;}
+</style>
+<g>
+    <g>
+        <g>
+            <g>
+                <path class="st0" d="M40.2,101.1c-0.4,0-0.5-0.2-0.3-0.5l2.1-2.7c0.2-0.3,0.7-0.5,1.1-0.5l35.7,0c0.4,0,0.5,0.3,0.3,0.6
+                    l-1.7,2.6c-0.2,0.3-0.7,0.6-1,0.6L40.2,101.1z"/>
+            </g>
+        </g>
+    </g>
+    <g>
+        <g>
+            <g>
+                <path class="st0" d="M25.1,110.3c-0.4,0-0.5-0.2-0.3-0.5l2.1-2.7c0.2-0.3,0.7-0.5,1.1-0.5l45.6,0c0.4,0,0.6,0.3,0.5,0.6
+                    l-0.8,2.4c-0.1,0.4-0.5,0.6-0.9,0.6L25.1,110.3z"/>
+            </g>
+        </g>
+    </g>
+    <g>
+        <g>
+            <g>
+                <path class="st0" d="M49.3,119.5c-0.4,0-0.5-0.3-0.3-0.6l1.4-2.5c0.2-0.3,0.6-0.6,1-0.6l20,0c0.4,0,0.6,0.3,0.6,0.7l-0.2,2.4
+                    c0,0.4-0.4,0.7-0.7,0.7L49.3,119.5z"/>
+            </g>
+        </g>
+    </g>
+    <g>
+        <g id="CXHf1q_1_">
+            <g>
+                <g>
+                    <path class="st0" d="M153.1,99.3c-6.3,1.6-10.6,2.8-16.8,4.4c-1.5,0.4-1.6,0.5-2.9-1c-1.5-1.7-2.6-2.8-4.7-3.8
+                        c-6.3-3.1-12.4-2.2-18.1,1.5c-6.8,4.4-10.3,10.9-10.2,19c0.1,8,5.6,14.6,13.5,15.7c6.8,0.9,12.5-1.5,17-6.6
+                        c0.9-1.1,1.7-2.3,2.7-3.7c-3.6,0-8.1,0-19.3,0c-2.1,0-2.6-1.3-1.9-3c1.3-3.1,3.7-8.3,5.1-10.9c0.3-0.6,1-1.6,2.5-1.6
+                        c5.1,0,23.9,0,36.4,0c-0.2,2.7-0.2,5.4-0.6,8.1c-1.1,7.2-3.8,13.8-8.2,19.6c-7.2,9.5-16.6,15.4-28.5,17
+                        c-9.8,1.3-18.9-0.6-26.9-6.6c-7.4-5.6-11.6-13-12.7-22.2c-1.3-10.9,1.9-20.7,8.5-29.3c7.1-9.3,16.5-15.2,28-17.3
+                        c9.4-1.7,18.4-0.6,26.5,4.9c5.3,3.5,9.1,8.3,11.6,14.1C154.7,98.5,154.3,99,153.1,99.3z"/>
+                </g>
+                <g>
+                    <path class="st0" d="M186.2,154.6c-9.1-0.2-17.4-2.8-24.4-8.8c-5.9-5.1-9.6-11.6-10.8-19.3c-1.8-11.3,1.3-21.3,8.1-30.2
+                        c7.3-9.6,16.1-14.6,28-16.7c10.2-1.8,19.8-0.8,28.5,5.1c7.9,5.4,12.8,12.7,14.1,22.3c1.7,13.5-2.2,24.5-11.5,33.9
+                        c-6.6,6.7-14.7,10.9-24,12.8C191.5,154.2,188.8,154.3,186.2,154.6z M210,114.2c-0.1-1.3-0.1-2.3-0.3-3.3
+                        c-1.8-9.9-10.9-15.5-20.4-13.3c-9.3,2.1-15.3,8-17.5,17.4c-1.8,7.8,2,15.7,9.2,18.9c5.5,2.4,11,2.1,16.3-0.6
+                        C205.2,129.2,209.5,122.8,210,114.2z"/>
+                </g>
+            </g>
+                </g>
+            </g>
+
+                                            <p class="modal_tech_names">TypeScript</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                           </body>
+
+<script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+<script src="https://unpkg.com/@popperjs/core@2"></script>
+<script src="https://unpkg.com/tippy.js@6"></script>
+<script src="/assets/js/lanyard.js"></script>
+<script src='/assets/js/goTop.js'></script>
+<script src="/assets/js/tippy.js"></script>
+<script src="/assets/js/githubRepositories.js"></script>
+<script src="/assets/js/darkMode.js"></script>
+<script src="/assets/js/localStorage.js"></script>
+<script src="/assets/js/modals.js"></script>
+<script src="/assets/js/dateActivity.js"></script>
+<script src="/assets/js/weather.js"></script>
+
+</html>

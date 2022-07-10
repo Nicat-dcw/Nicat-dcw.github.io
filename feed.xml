@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Eleven</title>
+  <subtitle>The personal website of Eleven.</subtitle>
+  <link href="https://lytwest.is-a.dev/feed.xml" rel="self"/>
+  <link href="https://lytwest.is-a.dev/"/>
+  <updated>2022-03-19T00:00:00Z</updated>
+  <id>https://lytwest.is-a.dev/</id>
+  <author>
+    <name>Lytwest</name>
+  </author>
+  
+  <entry>
+    <title>Lorem ipsum</title>
+    <link href="https://lytwest.is-a.dev/articles/lorem-ipsum/"/>
+    <updated>2022-03-19T00:00:00Z</updated>
+    <id>https://lytwest.is-a.dev/articles/lorem-ipsum/</id>
+    <content type="html">This World Is Yours.</content>
+  </entry>
+  
+</feed>
