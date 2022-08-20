@@ -6,7 +6,7 @@ var headStatus2 = document.getElementById("headStatus2");
 var headStatus3 = document.getElementById("headStatus3");
 
 const lanyard = new WebSocket("wss://api.lanyard.rest/socket");
-
+let myIDD = "852853360612605952" 
 var api = {};
 var received = false;
 
