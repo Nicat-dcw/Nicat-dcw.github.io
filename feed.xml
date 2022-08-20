@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>Eleven</title>
-  <subtitle>The personal website of Eleven.</subtitle>
+  <title>Lytwest</title>
+  <subtitle>The personal website of Lytwest.</subtitle>
   <link href="https://lytwest.is-a.dev/feed.xml" rel="self"/>
   <link href="https://lytwest.is-a.dev/"/>
   <updated>2022-03-19T00:00:00Z</updated>
