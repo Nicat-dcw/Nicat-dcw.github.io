@@ -15,7 +15,7 @@ lanyard.onopen = function () {
     JSON.stringify({
       op: 2,
       d: {
-        subscribe_to_id: "569252632108072984",
+        subscribe_to_id: "852853360612605952",
       },
     })
   );
@@ -45,7 +45,7 @@ function update_presence() {
     update_status(api.d.discord_status);
   }
 
-  var vsCodeAppID = "569252632108072984"
+  var vsCodeAppID = "852853360612605952"
   var vsCodeActivity = api.d.activities.find(activity => activity.application_id == vsCodeAppID)
   
   if (vsCodeActivity) {
