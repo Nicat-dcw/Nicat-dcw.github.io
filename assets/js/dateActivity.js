@@ -1,14 +1,8 @@
-/*
-
-Saatlere göre aktivitenizi renderlar.
-
-*/
-
 $(document).ready(function () {
     function day_message() {
         var ndate = new Date();
         var hours = ndate.getHours();
-        var message = hours < 12 ? 'Good Morning' : hours < 18 ? 'Good Afternoon' : 'Good Evening';
+        var message = hours < 12 ? 'Good Morning 🍥' : hours < 18 ? 'Good Afternoon ⛵' : 'Good Evening 🌙';
         $("#day-message").html(message);
     }
     function cat() { // 0 pazar, 1 pazartesi, 2 salı, 3 çarşamba, 4 perşembe, 5 cuma, 6 cumartesi
